@@ -85,7 +85,7 @@
 				</div>
 				<h2 class="text-4xl text-center uppercase">from the kitchen</h2>
 			</div>
-			<div class="relative pt-16 pb-24 mt-24 rounded-sm bg-green">
+			<div class="relative pt-16 pb-16 mt-24 rounded-sm bg-green">
 				<!-- <div
 					class="absolute top-[-15%] right-[-8%] h-auto max-w-xs z-[1] rotate-[15deg] hidden md:block"
 				>
@@ -101,8 +101,8 @@
 				>
 					<div class="flex flex-col bg-green">
 						<img
-							class="object-cover h-auto max-w-xs rounded-sm"
-							src="../static/jerrys-chicken.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							src="../static/jerrys-cake-2.jpg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
@@ -111,8 +111,8 @@
 					</div>
 					<div class="flex flex-col">
 						<img
-							class="object-cover h-auto max-w-xs rounded-sm"
-							src="../static/jerrys-chicken.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							src="../static/jerrysdrink.jpeg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
@@ -121,8 +121,8 @@
 					</div>
 					<div class="flex flex-col">
 						<img
-							class="object-cover h-auto max-w-xs rounded-sm"
-							src="../static/jerrys-chicken.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							src="../static/jerrysfried.jpeg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
