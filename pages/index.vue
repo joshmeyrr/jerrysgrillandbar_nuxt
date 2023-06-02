@@ -72,7 +72,9 @@
 					<span>from the beginning</span
 					><font-awesome-icon :icon="['fass', 'chevron-right']" />
 				</button> -->
-				<h3 class="mt-8 text-6xl opacity-40 font-cursive -rotate-6">Jerry + Marylin</h3>
+				<h3 class="mt-8 text-5xl lg:text-6xl opacity-40 font-cursive -rotate-6">
+					Jerry + Marylin
+				</h3>
 			</div>
 		</div>
 		<!-- Section 3 -->
