@@ -6,6 +6,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	@apply bg-white text-green font-sans-serif;
 }
@@ -15,7 +20,7 @@ body {
 }
 
 .wrapper-inner {
-	@apply px-2 mx-auto max-w-7xl;
+	@apply px-4 mx-auto max-w-7xl;
 }
 
 .wrapper-inner--skinny {
@@ -39,7 +44,7 @@ h2,
 h3,
 h4,
 h5 {
-	@apply font-serif font-bold text-7xl;
+	@apply font-serif text-3xl font-bold sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl;
 }
 /* p,
 h1,
