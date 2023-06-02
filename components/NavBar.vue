@@ -23,10 +23,10 @@
 				<NuxtLink class="text-white" to="/">Home</NuxtLink>
 				<NuxtLink class="text-white" to="#about">About</NuxtLink>
 				<NuxtLink class="text-white" to="#menu">menu</NuxtLink>
-				<button class="flex items-center gap-1 btn btn--primary">
+				<a href="tel:6185339197" class="flex items-center gap-1 btn btn--primary">
 					<div class="whitespace-nowrap">Call ahead</div>
 					<font-awesome-icon :icon="['fass', 'chevron-right']" />
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>

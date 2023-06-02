@@ -35,7 +35,7 @@
 			<div class="relative px-8 lg:px-0">
 				<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
 					<img
-						class="object-cover h-auto max-w-sm rounded-sm"
+						class="object-cover h-auto max-w-xs rounded-sm"
 						src="../static/jerrys-chicken.jpg"
 						alt=""
 					/>
