@@ -18,7 +18,8 @@ module.exports = {
 			fontFamily: {
 				serif: ['Lora', 'serif'],
 				'sans-serif': ['Lato', 'sans-serif'],
-				cursive: ['Feeling Passionate', 'cursive'],
+				cursive: ['Zeyada', 'cursive'],
+				// cursive: ['Feeling Passionate', 'cursive'],
 			},
 		},
 	},
