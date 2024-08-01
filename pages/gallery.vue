@@ -1,31 +1,24 @@
 <template lang="">
-	<div class="flex gap-4 flex-wrap items-center justify-center">
+	<!-- <div class="flex gap-4 flex-wrap items-center justify-center">
 		<img
 			v-for="(image, index) in images"
 			class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
 			:src="image"
 			alt=""
 		/>
-		<!-- <div
-			v-for="(items, index) in items"
-			:key="items[index]"
-			class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
-			alt=""
-		>
-			{{ items }}
-		</div> -->
-	</div>
+	</div> -->
+	<div></div>
 </template>
 <script setup>
-import { ref, onMounted } from 'vue';
-import { filename } from '~/utils/index';
-const images = ref({});
-onMounted(() => {
-	const modules = import.meta.glob('@/assets/images/*.jpg', { eager: true });
-	images.value = Object.fromEntries(
-		Object.entries(modules).map(([key, value]) => [filename(key), value.default])
-	);
-});
+// import { ref, onMounted } from 'vue';
+// import { filename } from '~/utils/index';
+// const images = ref({});
+// onMounted(() => {
+// 	const modules = import.meta.glob('@/assets/images/*.jpg', { eager: true });
+// 	images.value = Object.fromEntries(
+// 		Object.entries(modules).map(([key, value]) => [filename(key), value.default])
+// 	);
+// });
 // export default {
 // 	data() {
 // 		return {
