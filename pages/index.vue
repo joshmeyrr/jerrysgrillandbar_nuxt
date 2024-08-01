@@ -33,12 +33,35 @@
 			class="flex flex-col items-center gap-20 py-24 lg:items-start lg:flex-row wrapper-inner--skinny"
 		>
 			<div class="relative px-8 lg:px-0">
-				<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
-					<img
-						class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
-						src="../static/jerrys-chicken.jpg"
-						alt=""
-					/>
+				<div>
+					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
+						<img
+							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
+							src="../static/dinner-2.jpg"
+							alt=""
+						/>
+					</div>
+					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
+						<img
+							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
+							src="../static/dinner-8.jpg"
+							alt=""
+						/>
+					</div>
+					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
+						<img
+							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
+							src="../static/dinner-7.jpg"
+							alt=""
+						/>
+					</div>
+					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
+						<img
+							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
+							src="../static/dinner-5.jpg"
+							alt=""
+						/>
+					</div>
 				</div>
 
 				<!-- <div
@@ -59,14 +82,48 @@
 				</div>
 				<h2 class="mt-4 text-4xl uppercase">It began with jerry and marylin</h2>
 				<p class="mt-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis eum
-					eaque inventore minus dolorum voluptatibus numquam repellat voluptate, assumenda
-					commodi error quibusdam eius at!
+					Jerry and Marilyn Jolliff both grew up in Centralia, Illinois.
 				</p>
 				<p class="mt-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veritatis eum
-					eaque inventore minus dolorum voluptatibus numquam repellat voluptate, assumenda
-					commodi error quibusdam eius at!
+					Soon after getting married and having two young daughters, Barri and Sonya, they
+					took a leap, moved to Las Vegas and opened a restaurant with no prior restaurant
+					experience.
+				</p>
+				<p class="mt-4">
+					Shortly after the birth of their son Jerry, they decided that the hustle and
+					bustle of Las Vegas was no place to continue raising a family.
+				</p>
+				<p class="mt-4">
+					Shortly after the birth of their son Jerry, they decided that the hustle and
+					bustle of Las Vegas was no place to continue raising a family.
+				</p>
+				<p class="mt-4">
+					So, they moved back to Centralia and used what they had learned to bring the
+					same kind of quality and atmosphere from Las Vegas to their hometown.
+				</p>
+				<p class="mt-4">
+					The original Jerry’s was opened in 1970 carrying a reputation for quality food,
+					reasonable prices and large portions.
+				</p>
+				<p class="mt-4">
+					Now, over 50 years later, the restaurant continues with the same qualities.
+					Jerry and Marilyn’s son, Brock, his wife Stacey and their son, Gavin are
+					continuing the family tradition by valuing those same qualities.
+				</p>
+				<p class="mt-4">
+					Jerry’s would not be what it is today without our solid core of long time
+					employees. Our head chef, Doug, has worked in our kitchen for over 40 years.
+					Tammy, our manager, head server and delicious cheesecake baker, has also been
+					part of our family for over 40 years and Misty, another valued employee and
+					server, has been with us for over 25 years.
+				</p>
+				<p class="mt-4">
+					These three and the rest of our amazing staff help us to continue the values and
+					traditions started by Jerry and Marilyn.
+				</p>
+				<p class="mt-4">
+					We all look forward to serving you and sharing our family atmosphere with you
+					and your family.
 				</p>
 				<!-- <button class="flex items-center gap-1 mt-4 btn btn--primary">
 					<span>from the beginning</span
@@ -104,31 +161,33 @@
 					<div class="flex flex-col bg-green">
 						<img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
-							src="../static/jerrys-cake-2.jpg"
+							src="../static/cake-1.jpg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit?
+							Tammy’s famous cheesecakes are the perfect ending to any meal. With over 25
+							flavors that can be ordered as whole cheesecakes or enjoyed by the slice.
 						</p>
 					</div>
 					<div class="flex flex-col">
 						<img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
-							src="../static/jerrysdrink.jpeg"
+							src="../static/cake-2.jpg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit?
+							We have a full bar with lots of classic favorites and new offerings.
 						</p>
 					</div>
 					<div class="flex flex-col">
 						<img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
-							src="../static/jerrysfried.jpeg"
+							src="../static/cake-3.jpg"
 							alt=""
 						/>
 						<p class="max-w-xs px-2 py-4 text-center">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, fugit?
+							Jerry’s menu has been virtually unchanged for over 50 years. Hand cut steaks and
+							lots of fresh homemade options rule the menu.
 						</p>
 					</div>
 				</div>
@@ -165,7 +224,7 @@ export default {
 <style lang="css">
 .hero {
 	height: calc(100vh - 192px);
-	background-image: url('../static/jerrys-pie-3.jpg');
+	background-image: url('../static/dinner-1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -178,7 +237,7 @@ export default {
 
 .hero::after {
 	content: '';
-	background-color: rgb(0 0 0 / 0.85);
+	background-color: rgb(0 0 0 / 0.25);
 	height: 100%;
 	width: 100%;
 	position: absolute;

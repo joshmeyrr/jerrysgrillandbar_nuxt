@@ -7,7 +7,9 @@
 				<div>© 2023 Jerry's Grill & Bar. All rights reserved.</div>
 				<div class="flex">
 					<div>Built By:</div>
-					<a class="ml-2" href="mailto:joshmeyrr@gmail.com">joshmeyrr@gmail.com</a>
+					<a class="ml-2" href="www.motionlinkmedia.com" target="_blank"
+						>Motion Link Media</a
+					>
 				</div>
 			</div>
 			<div class="flex items-center gap-4">
