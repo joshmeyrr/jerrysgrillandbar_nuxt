@@ -16,4 +16,5 @@ export default defineNuxtConfig({
 			'@fortawesome/vue-fontawesome',
 		],
 	},
+	modules: ['@nuxt/image'],
 });
