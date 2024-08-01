@@ -35,31 +35,39 @@
 			<div class="relative px-8 lg:px-0">
 				<div>
 					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
-						<img
+						<NuxtImg
 							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
-							src="../static/dinner-2-min.jpg"
+							src="dinner-2-min.jpg"
 							alt=""
+							format="webp"
+							loading="lazy"
 						/>
 					</div>
 					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
-						<img
+						<NuxtImg
 							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
-							src="../static/dinner-8-min.jpg"
+							src="dinner-8-min.jpg"
 							alt=""
+							format="webp"
+							loading="lazy"
 						/>
 					</div>
 					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
-						<img
+						<NuxtImg
 							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
-							src="../static/dinner-7-min.jpg"
+							src="dinner-7-min.jpg"
 							alt=""
+							format="webp"
+							loading="lazy"
 						/>
 					</div>
 					<div class="inline-block p-4 bg-white border-4 rounded-sm border-green">
-						<img
+						<NuxtImg
 							class="object-cover h-auto max-w-[18rem] lg:max-w-xs rounded-sm"
-							src="../static/dinner-5-min.jpg"
+							src="dinner-5-min.jpg"
 							alt=""
+							format="webp"
+							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -159,10 +167,16 @@
 					class="relative z-10 flex flex-wrap justify-center gap-8 -mt-32 text-white"
 				>
 					<div class="flex flex-col bg-green">
-						<img
+						<!-- <img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
 							src="../static/cake-1-min.jpg"
 							alt=""
+						/> -->
+						<NuxtImg
+							src="cake-1-min.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							format="webp"
+							loading="lazy"
 						/>
 						<p class="max-w-xs px-2 py-4">
 							Tammy’s famous cheesecakes are the perfect ending to any meal. With over 25
@@ -170,20 +184,32 @@
 						</p>
 					</div>
 					<div class="flex flex-col">
-						<img
+						<!-- <img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
 							src="../static/drink-2-min.jpg"
 							alt=""
+						/> -->
+						<NuxtImg
+							src="drink-2-min.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							format="webp"
+							loading="lazy"
 						/>
 						<p class="max-w-xs px-2 py-4">
 							We have a full bar with lots of classic favorites and new offerings.
 						</p>
 					</div>
 					<div class="flex flex-col">
-						<img
+						<!-- <img
 							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
 							src="../static/cake-3-min.jpg"
 							alt=""
+						/> -->
+						<NuxtImg
+							src="cake-3-min.jpg"
+							class="object-cover h-auto max-w-xs max-h-[20rem] rounded-sm"
+							format="webp"
+							loading="lazy"
 						/>
 						<p class="max-w-xs px-2 py-4">
 							Jerry’s menu has been virtually unchanged for over 50 years. Hand cut steaks and
